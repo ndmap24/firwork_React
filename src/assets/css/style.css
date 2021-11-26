@@ -1,0 +1,3146 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* Login Interface css start here */
+
+.login_page {
+    background-image: url('../images/login_bg.webp');
+    background-size: 100% 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.login_page_top {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+section.login_page_top {
+    margin-top: 32px;
+}
+
+.login_top_text h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.login_top_text p {
+    max-width: 500px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.reserv_field {
+    font-family: 'Poppins', sans-serif;
+}
+
+.reserv_field .form-control {
+    background-color: rgb(48 255 255 / 22%);
+    border: 1px solid #30FFFF;
+    border-right: 0;
+    border-radius: 0;
+    color: #fff;
+}
+
+.reserv_field .form-control:focus {
+    box-shadow: 0px 0px 0 0.25rem rgb(26 118 121 / 25%);
+}
+
+.reserv_field_btn {
+    background-color: rgb(48 255 255 / 44%) !important;
+    border: 1px solid #30FFFF;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.reserv_field .btn-check:focus+.btn-primary,
+.reserv_field_btn:focus {
+    color: #fff;
+    border-color: #30ffff;
+    box-shadow: 0 0 0 0.25rem rgb(26 118 121 / 50%);
+}
+
+.reserv_field_btn:hover {
+    border-color: #30ffff;
+}
+
+.link_btn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    text-align: left;
+}
+
+.recut_link {
+    background-color: rgb(48 255 255 / 22%);
+    color: #fff !important;
+    text-decoration: none;
+    padding: 8px 50px;
+    display: inline-block;
+    border: 1px solid #30FFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.bottom_teen_brand {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.teen_esrb_box {
+    display: flex;
+    width: 100%;
+    margin: 45px 0;
+    max-width: 600px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.teen_esrb_img {
+    width: 85px;
+    height: auto;
+    display: inline-block;
+}
+
+.teen_esrb_content {
+    width: calc(100% - 100px);
+    margin-left: auto;
+}
+
+.teen_esrb_content p {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.login_menu .login_menu_btns li {
+    margin-right: 0;
+}
+
+.login_menu_btn {
+    background-color: #000;
+    color: #fff !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_menu .login_menu_btns li:not(:last-child) .login_menu_btn::after {
+    content: '';
+    position: absolute;
+    left: 120px;
+    top: -5px;
+    background-image: url('../images/menu_lines.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    background-size: contain;
+}
+
+
+/* Login Interface css close here */
+
+
+/* main Interface page start here */
+
+.mainInterface_page {
+    background-image: url('../images/main_interface_bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainInterface_section {
+    margin: 45px auto;
+}
+
+.mainInterface_box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    margin: 5px auto;
+    text-decoration: none !important;
+}
+
+.mainInterface_box1 {
+    height: 340px;
+}
+
+.mainInterface_box1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/frame_Intersection1.png');
+    background-size: 100% 340px;
+    z-index: 9;
+    background-repeat: no-repeat;
+}
+
+.mainInterface_box2 {
+    height: 160px;
+}
+
+.mainInterface_box2::before {
+    content: '';
+    position: absolute;
+    right: -9px;
+    bottom: -12px;
+    width: 195px;
+    height: 100%;
+    background-image: url('../images/Intersection2_box.png');
+    background-size: contain;
+    z-index: 9;
+    background-repeat: no-repeat;
+}
+
+.mainInterface_box3 {
+    height: 160px;
+}
+
+.mainInterface_box_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mainInterface_box_img img {
+    height: 100%;
+    width: 100%;
+}
+
+.mainInterface_box_txt {
+    position: relative;
+    text-align: left;
+    padding: 25px 15px 20px 25px;
+    z-index: 111;
+    height: 100%;
+}
+
+.mainInterface_box_txt p {
+    color: #64869A;
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.mainInterface_box_txt1 h3 {
+    color: #FF8700;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+    position: relative;
+    display: inline-block;
+}
+
+.mainInterface_box_txt1 h3::before {
+    content: '';
+    background-image: url('../images/yellow_bg.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mainInterface_box_txt1 h3 span {
+    position: relative;
+}
+
+.mainInterface_box_txt2 h5 {
+    color: #FF8700;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 2px #790079;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.mainInterface_box_txt2 h3 span {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.mainInterface_box_txt2 h3 {
+    color: #64869A;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    /* -webkit-text-stroke: .5px #fff; */
+    text-shadow: 0px 0px 0px #fff;
+}
+
+.mainInterface_box_txt2 h3::before {
+    content: '';
+    background-image: url('../images/purple_bg.png');
+    position: absolute;
+    left: -7px;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rbb_1 {
+    font-size: 100px;
+    position: absolute;
+    right: 40px;
+    top: -7px;
+    color: #FF8700;
+    -webkit-text-stroke: .2px #790079;
+}
+
+.mainInterface_box_txt3 h3 {
+    color: #FF8700;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-shadow: 0px 0px 0px #00D2FE;
+    /* -webkit-text-stroke: .2px #00D2FE; */
+}
+
+.mainInterface_box_txt3 h3 span {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.mainInterface_box_txt3 h3::before {
+    content: '';
+    background-image: url('../images/blue_bg.png');
+    position: absolute;
+    left: -7px;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mainInterface_box_txt3 p {
+    font-size: 14px;
+    word-break: break-all;
+    color: #FF8700;
+    text-transform: inherit;
+    line-height: 18px;
+}
+
+.cmps_decmps_frame_box {
+    background-image: url('../images/albertopetronio_frame.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.cmps_decmps_left .cmps_icon {
+    width: 40px;
+}
+
+.cmps_decmps_left ul {
+    display: flex;
+    align-items: center;
+}
+
+.cmps_decmps_left h6 {
+    text-align: left;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cmps_decmps_right img {
+    width: 60px;
+}
+
+.cmps_decmps_left {
+    width: calc(100% - 88px);
+    text-align: left;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+}
+
+.cmps_decmps_right {
+    width: 88px;
+    margin-left: auto;
+    position: relative;
+}
+
+.cmps_decmps_right::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-image: url('../images/albertopetronio_line.png');
+    background-repeat: no-repeat;
+}
+
+.cmps_decmps_right img {
+    width: 100px;
+    padding: 30px 15px 20px;
+}
+
+.mainIntf_btm_right {
+    display: flex;
+    margin-top: auto;
+    height: 100%;
+    width: 100%;
+    align-items: flex-end;
+}
+
+
+/* main Interface page close here */
+
+.characters_box {
+    background: rgb(0 0 0 / 42%);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    margin: 25px auto;
+    border-top: 3px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(90deg, #003BDD 0%, #00D2FE 100%);
+}
+
+.char_card {
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.characters_box_right {
+    position: relative;
+    height: 100%;
+}
+
+.characters_box_right::before {
+    content: '';
+    background-image: url('../images/card_coll_style.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -24px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card_coll_inrf_right {
+    padding: 15px 0 0 25px;
+}
+
+.top_char_line img {
+    margin-top: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.botm_char_line img {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.card_char_slider {
+    margin: 8px auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.card_char_slider .carousel-item img {
+    width: 45%;
+}
+
+.card_char_slider .carousel-indicators {
+    display: none;
+}
+
+.card_char_slider .carousel-control-prev-icon {
+    background-image: url('../images/slide-left-arrow.png');
+    width: 25px;
+    height: 30px;
+}
+
+.card_char_slider .carousel-control-next-icon {
+    background-image: url('../images/slide-right-arrow.png');
+    width: 25px;
+    height: 30px;
+}
+
+.card_char_slid_text {
+    margin: 15px auto;
+}
+
+.card_char_slid_text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    word-break: break-all;
+    letter-spacing: .5px;
+    font-weight: 300;
+}
+
+
+/* card collection css start here */
+
+.card_detail_form ul {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card_detail_form li:first-child {
+    /* width: 40px; */
+    width: 14%;
+    margin-right: 8px !important;
+}
+
+.card_detail_form li:nth-child(2) {
+    /* width: calc(100% - 42px); */
+    width: 70%;
+    margin-right: 8px !important;
+}
+
+.card_detail_form li:last-child {
+    width: 18%;
+    position: relative;
+    margin-right: 0 !important;
+}
+
+.card_level_txt {
+    font-size: 14px;
+    line-height: 15px;
+    position: absolute;
+    font-weight: 400;
+    top: 0;
+    left: 5px;
+    color: #64869A;
+}
+
+.card_level_txt b {
+    color: #fff;
+    font-weight: 500;
+}
+
+.search_field {
+    background: #1A2F44;
+    color: grey;
+    border-color: #097894;
+    border-radius: 0px;
+}
+
+.search_field:focus {
+    background: #1A2F44;
+    color: grey;
+    border-color: #097894;
+    border-radius: 0px;
+}
+
+.btn_drpdwn {
+    position: relative;
+}
+
+.btn_drpdwn::after {
+    content: '';
+    background-image: url('../images/card_field_lines.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -12px;
+    top: 0;
+    height: 100%;
+    width: 8px;
+    background-size: contain;
+}
+
+.btn_drpdwn::before {
+    content: '';
+    background-image: url('../images/arrow-downwards.png');
+    position: absolute;
+    left: 3px;
+    top: -4px;
+    width: 35px;
+    height: 35px;
+}
+
+.select_form_input {
+    background: transparent;
+    color: #fff;
+    border-color: #097894;
+    border-radius: 0px;
+    height: 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 45px;
+    position: relative;
+}
+
+.select_form_input option {
+    background: #0e1621;
+    font-size: 15px;
+    padding: 5px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.card_search {
+    position: relative;
+}
+
+.card_search::before {
+    content: '';
+    background-image: url('../images/search_line.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    width: 5px;
+    height: 22px;
+}
+
+.card_search::after {
+    content: '';
+    background-image: url('../images/card_field_lines.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -12px;
+    top: 0;
+    height: 100%;
+    width: 8px;
+    background-size: contain;
+}
+
+.card_search_field {
+    background: transparent;
+    color: #fff !important;
+    border-color: #097894;
+    border-radius: 0px;
+    height: 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 18px;
+    padding-right: 5px !important;
+}
+
+.form-control:focus {
+    background: transparent;
+}
+
+.card_search_field::placeholder {
+    text-transform: uppercase;
+    color: #778288;
+}
+
+.scientist_field {
+    display: flex;
+    align-items: center;
+    height: 38px;
+}
+
+.legend_field {
+    display: flex;
+    align-items: center;
+    height: 38px;
+}
+
+.bottom-label {
+    margin-top: 45px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.btm_labelimg {
+    margin-bottom: 20px;
+}
+
+.btn_link_icon {
+    width: 35px;
+    filter: brightness(0)invert(1);
+}
+
+.btm_btn_links {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.btm_lbl_btn_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btm_btn_links li {
+    position: relative;
+    z-index: 99;
+}
+
+.btm_btn_links li:first-child {
+    width: 40px;
+}
+
+.btm_btn_links li:not(:first-child) {
+    width: calc(100% - 42px);
+    margin-right: auto;
+}
+
+.btn_link_txt {
+    display: inline-block;
+    width: 100%;
+    color: #fff !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+/* card collection page css close here */
+
+
+/* card Synthesis css start here */
+
+.synth_char_cont {
+    text-align: left;
+    margin: 15px auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.synth_char_cont_hdng {
+    display: flex;
+    align-items: center;
+}
+
+.synth_char_cont_hdng li:first-child {
+    position: relative;
+    width: 35px;
+}
+
+.synth_cmpdem_img {
+    width: 24px;
+    filter: brightness(0)invert(1);
+    position: relative;
+}
+
+.Subtraction_img {
+    position: absolute;
+    left: -2px;
+    top: 0px;
+    width: 100%;
+    height: 28px;
+}
+
+.synth_char_cont_hdng h4 {
+    font-size: 17px;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+.card_synth_right_top {
+    display: flex;
+    align-items: center;
+}
+
+.card_synth_right_top .card_detail_form {
+    width: 60%;
+}
+
+.card_synth_right_top .card_char_slider {
+    width: 40%;
+}
+
+.card_synth_right_top .card_char_slider .carousel-control-prev-icon {
+    width: 15px;
+    height: 20px;
+}
+
+.card_synth_right_top .card_char_slider .carousel-control-next-icon {
+    width: 15px;
+    height: 20px;
+}
+
+.synth_char_cont_data li {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.synth_char_cont_data li::before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background: #D1F7FF;
+}
+
+.synth_char_cont_data p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.synth_char_cont_data span {
+    font-size: 15px;
+}
+
+.card_synth_center {
+    background: rgba(0, 0, 0, .42);
+    padding: 25px;
+    border-top: 3px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(90deg, #003BDD 0%, #00D2FE 100%);
+}
+
+.card_synth_right {
+    background: rgba(0, 0, 0, .42);
+    padding: 25px;
+    border-top: 3px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(90deg, #00D2FE 0%, #003BDD 100%);
+}
+
+.synth_modal_char_view {
+    position: relative;
+    margin: 15px auto;
+}
+
+.synth_chr_btn:hover {
+    background: #000 !important;
+    border-color: #64869A;
+}
+
+.synth_chr_btn:focus,
+.synth_chr_btn:active {
+    box-shadow: none !important;
+    background-color: #000;
+    border-color: #64869A;
+}
+
+.synth_chr_btn {
+    padding: 0;
+    border: 1px solid #64869A;
+    border-radius: 0;
+    padding: 2px;
+    background: #000000;
+    position: relative;
+    overflow: hidden;
+}
+
+.synth_chr_btn_value {
+    position: relative;
+}
+
+.synth_chr_btn_value::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+    width: 70px;
+    height: 100%;
+    border-left: 20px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 54px solid #64869A;
+}
+
+.synth_chr_btn_value .synth_ttl_card {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    font-size: 28px;
+    z-index: 9;
+}
+
+.synth_chr_btn_txt {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.stnth_card_modal .modal-backdrop {
+    opacity: 0;
+}
+
+.synth_comp_decomp_buttons {
+    display: flex;
+}
+
+.synth_comp_decomp_buttons button:hover,
+.synth_comp_decomp_buttons button:focus,
+.synth_comp_decomp_buttons button:active {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.synth_comp_btn,
+.synth_decomp_btn {
+    margin: auto;
+    background-color: transparent;
+    position: relative;
+    border: none;
+    width: 180px;
+    height: 45px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+}
+
+.synth_comp_btn::before,
+.synth_decomp_btn::before {
+    content: '';
+    background-image: url('../images/synth_btns_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* card Synthesis css close here */
+
+
+/* Starship page start here */
+
+.Starship_pages {
+    background-image: url('../images/starship_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.startship_left_cont {
+    text-align: left;
+}
+
+.souvenir_top {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.souvenir_top li:first-child {
+    width: 55px;
+    height: 100%;
+    padding: 5px;
+    position: relative;
+}
+
+.souvenir_top li:first-child::before {
+    content: '';
+    background-image: url('../images/Subtraction_icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.stshp_sour_icon {
+    width: 30px;
+    position: relative;
+    display: flex;
+    padding: 3px;
+}
+
+.souvenir_top h3 {
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.startship_left_cont p {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.startship_left_cont h5 {
+    color: #00FF3B;
+    font-size: 42px;
+}
+
+.souvenir_btm {
+    display: flex;
+    align-items: center;
+}
+
+.souvenir_percnt {
+    color: #F5FF00;
+    font-size: 32px;
+}
+
+.souvenir_btm li:first-child {
+    width: 10%;
+}
+
+.souvenir_btm li:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 42%;
+}
+
+.sou_red_color {
+    color: #FF0000;
+    padding-left: 2px;
+}
+
+.souvenir_btm li:last-child {
+    width: 48%;
+    position: relative;
+    /* background-image: url('../images/maintance_bg.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+}
+
+.maintance_bg_fix {
+    position: absolute;
+    left: -5px;
+    top: -5px;
+}
+
+.sour_maintnc_icon {
+    width: 26px;
+    padding: 4px;
+    position: relative;
+}
+
+.sour_maintnc_txt {
+    position: relative;
+    font-size: 14px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.starship_levels_hdng {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.starship_levels_hdng::before {
+    content: '';
+    background-image: url('../images/bottom-label.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -2px;
+    top: 1.5px;
+    /* width: 235px; */
+    width: 100%;
+    height: 100%;
+}
+
+.starship_levels_hdng li:first-child {
+    width: 30px;
+}
+
+.starship_levels_hdng li:last-child {
+    width: calc(100% - 50px);
+    text-align: left;
+}
+
+.sshp_hdng_icon {
+    width: 25px;
+    filter: brightness(0)invert(1);
+}
+
+.sshp_hdng_txt {
+    font-size: 17px;
+    padding-left: 13px;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none !important;
+    color: #fff !important;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+.strshp_lvl_list li {
+    word-break: break-all;
+    text-align: left;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.strshp_lvl_list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+}
+
+.starshp_weapons_slider {
+    display: inline-block;
+    width: 100%;
+    margin: 25px auto;
+}
+
+.starshp_weapons_img {
+    width: 50%;
+}
+
+.starshp_weapons_slider .carousel-indicators {
+    display: none;
+}
+
+.starshp_weapons_slider .carousel-control-next,
+.starshp_weapons_slider .carousel-control-prev {
+    opacity: 1;
+}
+
+.starshp_weapons_slider .carousel-control-prev-icon {
+    background-image: url('../images/wepon_left_slider.png');
+    width: 5rem;
+    height: 4rem;
+}
+
+.starshp_weapons_slider .carousel-control-next-icon {
+    background-image: url('../images/wepon_right_slider.png');
+    width: 5rem;
+    height: 4rem;
+}
+
+
+/* Starship page close here */
+
+
+/* Starship Equipment page start here */
+
+.ssp_eqp_face_img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.equp_txtuer_box_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ssp_eqp_face_img .equp_face_shield {
+    width: 50px;
+    position: relative;
+}
+
+.ssp_eqp_face_txt p {
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ssp_eqp_face_txt {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+}
+
+.ssp_eqp_face_txt p {
+    background-image: url('../images/ssp_face_name.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 2px 0 7px;
+    font-size: 14px;
+    display: inline-block;
+    width: 95%;
+}
+
+.ssp_eqp_face_txt span {
+    position: absolute;
+    /* right: 0; */
+    top: 0;
+    font-size: 12px;
+    font-weight: 300;
+    color: #64869A;
+}
+
+.ssp_eqp_face_txt span b {
+    color: #fff;
+}
+
+.ssp_eqp_cards {
+    /* background-image: url('../images/equp_txtuer_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain; */
+    position: relative;
+    display: inline-block !important;
+    width: 100%;
+    padding: 30px 15px;
+}
+
+.equp_txtuer_bg_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.ssp_eqp_cards_slider {
+    display: flex !important;
+    align-items: center;
+}
+
+.ssp_eqp_cards_slider .owl-stage-outer {
+    width: 85%;
+}
+
+.ssp_eqp_cards_slider .owl-nav {
+    width: calc(100% - 85%);
+}
+
+.ssp_eqp_cards_slider .owl-dots {
+    display: none;
+}
+
+.ssp_eqp_crd_img img {
+    width: 75% !important;
+    margin: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.ssp_eqp_crd_img p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.ssp_eqp_cards_slider .owl-nav .owl-prev {
+    background-image: url('../images/owl_left_arw.png') !important;
+    background-size: cover !important;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat !important;
+}
+
+.ssp_eqp_cards_slider .owl-nav .owl-next {
+    background-image: url('../images/owl_right_arw.png') !important;
+    background-size: cover !important;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat !important;
+}
+
+.ssp_eqp_cards_slider .owl-prev span,
+.ssp_eqp_cards_slider .owl-next span {
+    display: none;
+}
+
+.ssp_eqp_cards_slider.owl-theme .owl-nav [class*='owl-']:hover {
+    background-color: transparent !important;
+}
+
+.ssp_eqp_cards_slider .owl-item {
+    width: 90px !important;
+}
+
+.starshp_equipmnt_right_box {
+    margin: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.stsp_equip_wepon_slider {
+    display: inline-block;
+    width: 100%;
+    margin: 25px auto 35px;
+}
+
+.stsp_equip_weapons_img {
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+.stsp_equip_wepon_slider .carousel-indicators {
+    display: none;
+}
+
+.stsp_equip_wepon_slider .carousel-control-next,
+.stsp_equip_wepon_slider .carousel-control-prev {
+    opacity: 1;
+}
+
+.stsp_equip_wepon_slider .carousel-control-prev-icon {
+    background-image: url('../images/slide-left-arrow.png');
+    width: 1.2rem;
+    height: 1.5rem;
+}
+
+.stsp_equip_wepon_slider .carousel-control-next-icon {
+    background-image: url('../images/slide-right-arrow.png');
+    width: 1.2rem;
+    height: 1.5rem;
+}
+
+
+/* Starship Equipment page close here */
+
+
+/* Starship Upgrade css start here */
+
+.sshp_lvl_upgd_box {
+    display: flex;
+    margin: 15px auto;
+}
+
+.sshp_lvl_upgd_box.disable_upgd_box {
+    filter: grayscale(1.2);
+}
+
+.sshp_upgrd_left {
+    background-image: url('../images/sshp_levels.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 15px;
+    width: 11%;
+    margin: 5px 10px 5px 0;
+}
+
+.sshp_upgrd_left p {
+    margin-bottom: 0;
+}
+
+.sshp_upgrd_right {
+    background-image: url('../images/equp_txtuer_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.sshp_upgrd_right ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.sshp_upgrd_right li {
+    position: relative;
+    width: 15%;
+}
+
+.sshp_upgrd_right li:nth-child(4) {
+    width: 30%;
+}
+
+.sshp_upgrd_right li:last-child {
+    width: 20%;
+}
+
+.uplevl_txt p {
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 12px;
+    font-weight: 300;
+}
+
+.uplevl_values {
+    width: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: rgb(0 210 254 / 15%);
+}
+
+.uplevl_values img {
+    width: 25px;
+    margin: 0 5px;
+}
+
+.uplevl_txt p span {
+    color: #00FF3B;
+}
+
+.level_upgrade_btn {
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 15px 8px;
+    position: relative;
+}
+
+.level_upgrade_btn span {
+    position: relative;
+}
+
+.level_upgrade_btn::before {
+    content: '';
+    background-image: url('../images/sshp_upgd_bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.upgraded_box .level_upgrade_btn::before {
+    opacity: .5;
+}
+
+
+/* Starship Upgrade css close here */
+
+
+/* Starship Mining css start here */
+
+.planet_risk_img {
+    margin-bottom: 40px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.planet_risk_hdng {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.planet_risk_hdng li:first-child {
+    width: 12%;
+    background-image: url('../images/Subtraction_icon.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.planet_risk_hdng li:first-child img {
+    width: 30px;
+    display: block;
+    padding: 5px;
+}
+
+.planet_risk_list li {
+    text-align: left;
+    position: relative;
+    padding-left: 25px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.planet_risk_list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    background: #fff;
+    width: 8px;
+    height: 8px;
+}
+
+.planet_risk_hdng .risk_hdng {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17x;
+}
+
+
+/* Starship Mining css close here */
+
+
+/* Startship Risk Mining css start here */
+
+.risk_top_heading {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.rsk_hdg_img {
+    width: 8%;
+    background-image: url('../images/Subtraction_icon.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.rsk_hdg_img img {
+    padding: 6px;
+    width: 40px;
+    margin-right: auto;
+}
+
+.risk_top_heading h5 {
+    width: calc(100% - 10%);
+    margin-left: auto;
+    text-align: left;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.risk_list li {
+    position: relative;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.risk_list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+}
+
+.risk_points li {
+    position: relative;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.risk_points li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+}
+
+.risk_hours_tab {
+    display: flex;
+    align-items: center;
+}
+
+.left_hours {
+    width: 55px;
+    height: 55px;
+    background: #026d85;
+    padding: 7px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.left_hours::before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.right_hours {
+    width: calc(100% - 60px);
+    margin-left: auto;
+    text-align: left;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.hours_nav {
+    align-items: center;
+}
+
+.hours_nav .nav-link,
+.hours_nav .nav-link.active {
+    position: relative;
+    margin: 5px 15px 5px 0;
+    position: relative;
+    color: #fff;
+    padding: 4px 8px !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.hours_nav .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url('../images/hours_bg.png');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+.hours_nav .nav-link.active::before {
+    opacity: 1;
+}
+
+.risk_tab_content {
+    text-align: left;
+}
+
+.hrs_list li {
+    position: relative;
+    padding: 10px 15px;
+    width: 100%;
+    background-image: url('../images/tab_bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.danger_hrs_list .danger_tab {
+    position: relative;
+    padding: 10px 15px;
+    width: 100%;
+    background-image: url('../images/danger_tab_bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.right_risk_month {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.risk_month_image {
+    position: absolute;
+    left: -70px;
+    top: -10px;
+    width: 390px;
+    height: 100%;
+}
+
+
+/* Startship Risk Mining css close here */
+
+
+/* Starship Mining Interface Start */
+
+.smi_card_div {
+    padding: 150px 150px 150px 0px;
+}
+
+.smi_leaf_div {
+    display: flex;
+}
+
+.smi_add_div_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    height: 100vh;
+}
+
+.smi_add_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.progress {
+    margin-top: 10px;
+    height: 8px !important;
+}
+
+.progress-bar {
+    background-color: #00EFA9 !important;
+}
+
+.smi_plus_img {
+    width: 50px;
+}
+
+.smi_add_progdiv {
+    text-align: left;
+}
+
+.smi_add_progdiv .smi_add_progtext {
+    font-size: 14px;
+    color: #fff;
+}
+
+.smi_add_numdiv .smi_add_chngnum {
+    font-size: 28px;
+    color: #069706;
+}
+
+.smi_add_numtxt {
+    font-size: 14px;
+    color: #fff;
+}
+
+.smi_leaf_imgdiv {
+    display: flex;
+    height: 100vh;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.smi_leaf_img {
+    width: 360px;
+    height: auto;
+}
+
+.smi_rightleaf_div {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.smi_add_div_cont2.zero_numb {
+    transform: translateX(-56px);
+}
+
+.smi_add_div_cont2.value_numb {
+    transform: translateX(-76px);
+}
+
+.smi_add_div_cont2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.startship_interface_bg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-content {
+    background-color: transparent;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: none !important;
+    }
+}
+
+
+/* Starship Mining Interface End */
+
+
+/* Interstellar Trader Start  */
+
+.power_bar {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+    padding: 8px;
+}
+
+.power_bar::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    width: 104%;
+    height: 110%;
+    background-image: url('../images/interstellar-page/power-bar.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    filter: brightness(5);
+}
+
+.unfill_power {
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    /* border-left: 1px solid grey; */
+    width: 34px;
+    margin-right: 0% !important;
+}
+
+.power_bar .fill_power {
+    display: block;
+    background: #FFBE00;
+    width: 34px;
+    height: 18px;
+    border: 2px solid #b0730d;
+    box-shadow: 0px 0px 20px #ea970e;
+    margin-right: 0px !important;
+}
+
+.interstellar_page {
+    background-image: url('../images/interstellar-page/interstellar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.signlink_bg {
+    background-image: url('../images/signIn_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top_right_sign {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.top_right_sign .sign_li {
+    width: 150px;
+}
+
+.top_right_sign .loader_li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.top_right_sign .ins_log_li {
+    width: 50px;
+}
+
+.signIn {
+    padding: 2px 8px 6px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 15px;
+}
+
+.top_sign_note {
+    display: flex;
+    align-items: center;
+}
+
+.top_sign_note img {
+    width: 10px;
+    margin-right: 8px;
+}
+
+.top_sign_note p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.instrelr_tp_heading {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.instrelr_tp_heading li {
+    width: 100%;
+}
+
+.instrelr_tp_heading li:first-child,
+.instrelr_tp_heading li:last-child {
+    width: 28px;
+}
+
+.package_heading {
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.instrelr_right img {
+    width: 80%;
+    margin: auto;
+}
+
+.instrelr_time_count {
+    display: flex;
+    background-image: url('../images/interstellar-page/orange-bar.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    width: 350px;
+    height: 40px;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
+.instrelr_time_count li:first-child {
+    width: 12%;
+    display: inline-block;
+}
+
+.instrelr_time_count li:last-child {
+    width: calc(100% - 20%);
+    margin-left: auto;
+}
+
+.inst_clock_count {
+    width: 22px;
+    margin: auto;
+    display: block;
+    margin-top: 3px;
+}
+
+.inst_count_down {
+    display: flex;
+}
+
+.inst_count_down b {
+    font-weight: 500;
+    margin: 0 8px 0 4px;
+}
+
+.open_buy_grp {
+    width: 450px;
+    margin-top: 85px;
+    margin-left: 35px;
+}
+
+.open_buy_grp {
+    display: flex;
+    flex-flow: column;
+}
+
+.open_buy_grp .open_buy_grp_btn {
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #02B4C3;
+    text-align: left;
+    padding: 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.open_buy_grp .open_buy_grp_btn:focus {
+    border-color: #02B4C3 !important;
+}
+
+.open_buy_grp .open_buy_grp_btn ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+
+.open_buy_grp .open_buy_grp_btn ul li {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.open_buy_grp .open_buy_grp_btn ul li:first-child {
+    width: calc(100% - 180px);
+    margin-right: auto;
+}
+
+.open_buy_grp .open_buy_grp_btn ul li:last-child {
+    width: 180px;
+    background-image: url('../images/interstellar-page/blue-pattern.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.open_buy_grp .open_btn li {
+    height: 80px;
+}
+
+.open_buy_grp .open_btn li:first-child {
+    font-size: 30px;
+}
+
+.open_buy_grp .open_btn li:last-child {
+    padding: 15px 25px;
+}
+
+.open_buy_grp .open_btn li:last-child span {
+    font-size: 25px;
+    background-image: url('../images/open_now_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 4px 15px;
+    text-align: right;
+}
+
+.buy_btn li {
+    height: 50px;
+}
+
+.buy_btn li:first-child {
+    font-size: 25px;
+}
+
+.gray_filter {
+    filter: grayscale(1) !important;
+    color: #778288 !important;
+}
+
+.gray_filter span {
+    color: #000;
+}
+
+.package_content {
+    width: 450px;
+    margin-top: 65px;
+    margin-left: 35px;
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgb(48 255 255 / 22%);
+    color: #fff !important;
+    border: 1px solid #30FFFF;
+}
+
+.package_content p {
+    margin-bottom: 0;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.package_content p span {
+    color: #00FF3B;
+}
+
+.package_note {
+    text-align: left;
+    margin-top: 45px;
+    font-size: 15px;
+}
+
+.package_note p {
+    color: #00FF3B;
+}
+
+
+/* Interstellar Trader Start End */
+
+
+/* Card Shop Page Start */
+
+.cardShop_lft_col {
+    display: flex;
+    align-items: center;
+}
+
+.divide-bar {
+    width: 12px;
+}
+
+.cardShop_page_right {
+    /* padding: 50px; */
+    padding-top: 10px;
+}
+
+.card_shop_page {
+    position: relative;
+}
+
+.card_shop_page::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/interstellar-page/cardshop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.cardShop_page_lft {
+    /* width: 360px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* min-height: 100vh; */
+    text-align: left;
+    margin-left: 40px;
+}
+
+.cardShop_page_lft ul li {
+    line-height: 2;
+}
+
+.cardShop_page_lft ul li .yellow {
+    color: rgb(226, 212, 8);
+}
+
+.cardShop_page_lft ul li .blue {
+    color: rgb(84, 8, 226);
+}
+
+.cardShop_page_lft ul li .dodgerBlue {
+    color: rgb(9, 171, 211);
+}
+
+.cardShop_page_lft ul li .grey {
+    color: #acacac;
+}
+
+.cardShop_page_right h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.cardShop_rightTop {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cardShop_rightTop .left_arrow_img {
+    width: 25px;
+}
+
+.cardShop_rightTop .rightTop_para {
+    margin-left: 20px;
+    padding: 4px;
+    background-image: url('../images/interstellar-page/strip.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffffa6;
+}
+
+.pack_div {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* width: 160px; */
+    height: 160px;
+    padding: 10px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pack_div .pack_img {
+    padding: 20px 20px 0px 20px;
+    width: 132px;
+}
+
+.bottom_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.bottom_div::before {
+    content: '';
+    position: absolute;
+    top: -45px;
+    left: -9px;
+    width: 3px;
+    height: 70px;
+    background-image: url('../images/interstellar-page/Subtraction.png');
+    background-repeat: no-repeat;
+}
+
+.secTwo .u {
+    background-color: #00a37c;
+    padding: 2px 6px;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.cardShop_pack_div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.quantity {
+    position: absolute;
+    top: 4px;
+    right: 18px;
+    display: flex;
+    color: #ffffff6b;
+}
+
+.quantity .pack_number {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+.secOne {
+    color: grey;
+}
+
+.secTwo .quantity_num {
+    color: grey;
+}
+
+.secTwo .quantity_num2 {
+    color: #3f3f3f;
+}
+
+.pack_link {
+    text-decoration: none;
+}
+
+.exc_pacImg {
+    width: 80px;
+    height: auto;
+}
+
+.exclusive_pack_div {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* width: 500px; */
+    border: 1px solid #836105;
+    padding: 20px 10px 0px 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.exc_pac_txtDiv {
+    padding: 10px;
+    background-image: url('../images/interstellar-page/pattern-brown.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+}
+
+.exc_pac_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.exc_pac_numDiv {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: #fff;
+}
+
+.exclusive_pack_div .bottom_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.exclusive_pack_div .bottom_div::before {
+    content: '';
+    position: absolute;
+    top: -45px;
+    left: -10px;
+    width: 3px;
+    height: 70px;
+    background-image: url('../images/interstellar-page/Subtraction-gold.png');
+    background-repeat: no-repeat;
+}
+
+.exclusive_href {
+    text-decoration: none;
+}
+
+.exc_label {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 8px 20px;
+    display: inline-block;
+    width: auto;
+    color: #fff;
+    padding-top: 7px;
+}
+
+.exc_label::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/interstellar-page/label.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.exc_label span {
+    position: relative;
+}
+
+.sup_pacImg {
+    width: 80px;
+    height: auto;
+}
+
+.supreme_pack_div {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url('../images/interstellar-page/supreme-bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 500px; */
+    border: 1px solid #836105;
+    padding: 20px 10px 0px 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.sup_pac_txtDiv {
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #c2b393;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.sup_pac_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.sup_pac_numDiv {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: #bcb69c;
+}
+
+.supreme_pack_div .bottom_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.supreme_pack_div .bottom_div::before {
+    content: '';
+    position: absolute;
+    top: -45px;
+    left: -10px;
+    width: 3px;
+    height: 70px;
+    background-image: url('../images/interstellar-page/Subtraction-gold.png');
+    background-repeat: no-repeat;
+}
+
+.supreme_href {
+    text-decoration: none;
+}
+
+.cs_left_side_div {
+    display: flex;
+}
+
+.cs_left_part2 {
+    background-image: url('../images/interstellar-page/right-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cs_left_partDiv {
+    margin: 15px;
+    text-align: left;
+}
+
+.cs_left_partDiv .brand_bg {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.cs_left_partPara .time_left {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1080px) {
+    .pack_div .pack_img {
+        padding: 25px 35px 15px 25px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .divide-bar {
+        display: none;
+    }
+    .pack_div {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .cardShop_page_lft {
+        margin-left: 0px;
+    }
+}
+
+
+/* Card Shop Page End */
+
+
+/* ----------------------------------------- Confirm Goods Page Start ----------------------------------- */
+
+
+/* .ConfirmGoods_page{
+    background-image: url('../images/interstellar-page/confirm-goods-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.confirmGoods_col {
+    display: flex;
+    align-items: center;
+}
+
+.confirmGoods_div {
+    margin: 50px;
+    text-align: left;
+    /* padding-left: 100px; */
+}
+
+.cg_head_txt {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.cg_pack_div {
+    display: flex;
+    margin-top: 30px;
+}
+
+.cg_pack_img {
+    width: 250px;
+    height: auto;
+}
+
+.cg_pack_times {
+    color: #ffffff7a;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.cg_pack_quantity {
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cg_pack_buy_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid grey;
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-image: url('../images/interstellar-page/pattern-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.cg_buyBtn_right {
+    background-image: url('../images/interstellar-page/buy-subtraction.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 10px 5px 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.cg_pack_u {
+    background: #00A37C;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 13px;
+}
+
+.cg_buyBtn_txt {
+    font-size: 18px;
+}
+
+.cg_buyBtn_href {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cg_buyBtn_href:hover {
+    color: #fff;
+}
+
+.bg_blur_txt {
+    color: grey;
+    font-size: 30px;
+    filter: blur(2px);
+    letter-spacing: 6px;
+    text-align: end;
+}
+
+@media screen and (max-width:992px) {
+    .confirmGoods_div {
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .cg_pack_img {
+        width: 170px;
+    }
+}
+
+
+/* ----------------------------------------- Confirm Goods Page End ----------------------------------- */
+
+
+/* ----------------------------------------- Open Package Page Start ----------------------------------- */
+
+.op_package_img {
+    width: 347px;
+    height: auto;
+    padding: 50px;
+}
+
+.open_package_nextBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid grey;
+    text-decoration: none;
+    color: #fff;
+}
+
+.open_package_nextBtn:hover {
+    color: #fff;
+}
+
+.open_package_allBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid grey;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.open_package_allBtn:hover {
+    color: #fff;
+}
+
+.open_package_pageBtm {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.open_package_page {
+    margin: 50px;
+}
+
+.op_nextBtn_right {
+    position: relative;
+    padding: 0px 25px;
+}
+
+.op_nextBtn_right::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/interstellar-page/buy-subtraction.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+
+.op_allBtn_right {
+    position: relative;
+    padding: 0px 25px;
+}
+
+.op_allBtn_right::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/interstellar-page/buy-subtraction.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+
+.open_package_popup {
+    position: relative;
+}
+
+.opn_pckg_back {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    background: #090a10;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+
+/* ----------------------------------------- Open Package Page End ----------------------------------- */
+
+
+/* ----------------------------- Wallet Popup Start ---------------------------------------------- */
+
+.wallet_popup_div {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    margin: auto;
+}
+
+.wallet_popup_div .btn-close {
+    color: #fff;
+    filter: invert(1);
+    margin: 0%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.wallet_popup_container .modal-header {
+    justify-content: center;
+    position: relative;
+    border-bottom: none;
+}
+
+.wallet_popup_container .modal-body {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* ----------------------------- Wallet Popup End ---------------------------------------------- */
+
+.single_card_page {
+    width: 100%;
+    margin: auto;
+}
+
+.single_card_img {
+    width: 200px;
+    height: auto;
+}
+
+
+/* ---------------------- Swiper ---------------------- */
+
+.swip_cont {
+    /* position: relative;
+    height: 100%; */
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+/* ---------------------- Swiper ---------------------- */
+
+
+/* -------------------------------------- Treasuered Pack Page ------------------------------------- */
+
+.treasure_pack_page {
+    position: relative;
+}
+
+.treasure_pack_page::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/interstellar-page/cardshop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.treasure_pack_div {
+    background-image: url('../images/interstellar-page/Group.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.treasure_content {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    padding: 15px;
+    /* background-image: url('../images/interstellar-page/purple-pack.png');
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.treasure_txt_head {
+    color: burlywood;
+    font-size: 25px;
+}
+
+.treasure_txt_para {
+    color: burlywood;
+    font-size: 16px;
+}
+
+.treasure_quantity_div {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.treasure_quant_lft {
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+.treasure_unit {
+    background: #00A37C;
+    padding: 2px 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.purple-pack {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.purple_pack_link {
+    color: #fff;
+}
+
+.purple_pack_link:hover {
+    color: #fff;
+}
+
+
+/* -------------------------------------- Treasuered Pack Page ------------------------------------- */
+
+
+/* -------------------------------------- Camp Pack Page ------------------------------------- */
+
+.premium_pack_div {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-image: url('../images/interstellar-page/premium-pack.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 10px 0px 10px;
+    margin-top: 20px;
+    position: relative;
+    height: 300px;
+    display: flex;
+}
+
+.premium_btm_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.premium_pac_txtDiv {
+    color: burlywood;
+    font-size: 25px;
+}
+
+.premium_label {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 8px 20px;
+    display: inline-block;
+    width: auto;
+    color: #fff;
+    padding-top: 7px;
+}
+
+.premium_label::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/interstellar-page/label.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.premium_label span {
+    position: relative;
+}
+
+.premium_pac_numDiv {
+    color: burlywood;
+    font-size: 30px;
+    position: absolute;
+    top: 65px;
+    right: 125px;
+    opacity: .6;
+}
+
+
+/* -------------------------------------- Camp Pack Page ------------------------------------- */
+
+.unpacking_anmtn {
+    padding-left: 0 !important;
+}
+
+.unpacking_anmtn .modal-dialog {
+    margin: 0;
+    position: relative;
+}
+
+.unpacking_anmtn .close_btn_card {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    background: #090a10;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 0;
+}
+
+.unpacking_anmtn .btn-check:focus+.btn,
+.unpacking_anmtn .btn:focus {
+    box-shadow: none !important;
+}
+
+.unpacking_anmtn .modal-content {
+    padding: 25px;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0 0 0 / 80%);
+}
+
+.unpacking_anmtn .modal-header {
+    border: none;
+}
+
+.unpacking_anmtn .modal-header .btn-close {
+    color: #fff;
+    filter: invert(1);
+    opacity: 1;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
+
+.card_show_popup {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #010102;
+}
+
+.card_show_popup div {
+    background-color: transparent !important;
+}
+
+.single_card_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Storage css start here */
+
+.storage_box_left {
+    padding: 15px 10px 15px 0;
+}
+
+.storage_detail_form ul {
+    display: flex;
+    align-items: flex-start;
+}
+
+.storage_detail_form li:first-child {
+    /* width: 40px; */
+    width: 14%;
+    margin-right: 8px !important;
+}
+
+.storage_detail_form li:last-child {
+    width: calc(100% - 15%);
+    margin-left: auto;
+}
+
+.storg_boxe_effect {
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.storg_boxe_effect::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/storage_box_effect.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gray_strg_effect::before {
+    filter: grayscale(1);
+}
+
+.storg_boxe_effect::after {
+    content: '';
+    position: absolute;
+    left: 5%;
+    bottom: 10px;
+    top: auto;
+    width: 90%;
+    height: 30px;
+    background-image: url('../images/storage_box_btm.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.storg_boxes {
+    position: relative;
+    padding: 25px 15px 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.storage_pack_img {
+    width: 55%;
+    margin: 15px auto;
+}
+
+.stry_pro_name {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.storg_boxes ul {
+    display: flex;
+    align-items: center;
+}
+
+.storg_boxes ul li:first-child {
+    width: 60%;
+    text-align: left;
+}
+
+.strg_box_qunty {
+    display: flex;
+    width: 65%;
+    align-items: center;
+    background-image: url('../images/strg_box_qunty_img.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 2px;
+}
+
+.strg_box_qunty .strg_qnty_img {
+    width: 30px;
+}
+
+.strg_box_qunty p {
+    width: calc(100% - 35px);
+    margin-left: auto;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.storg_boxes ul li:last-child {
+    width: 45%;
+}
+
+.storg_open_btn {
+    color: #fff !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-image: url('../images/storage_open.png');
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 8px;
+}
+
+
+/* Storage css close here */
+
+.demo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.properties {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}

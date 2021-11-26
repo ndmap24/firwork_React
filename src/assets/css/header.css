@@ -1,0 +1,80 @@
+body {
+    background-color: #090a10;
+    color: #fff;
+    font-family: 'Shentox';
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.navbar_menu {
+    background: transparent;
+}
+
+.menu_links {
+    color: #64869A !important;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.menu_links.active, .menu_links:hover, .menu_links:focus, .menu_links:focus-visible {
+    color: #fff !important;
+    background: rgb(100 134 154 / 30%);
+}
+
+.navbar-nav .menu_links:first-child::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #64869A;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.menu_links::after {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #64869A;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logo {
+    width: 40px;
+}
+
+.menu_icon {
+    color: #64869A !important;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 34px;
+    padding: 0 10px;
+}
+
+.menu_icon_img {
+    width: 30px;
+}
+
+.menu_btn {
+    background-color: rgb(100 134 154 / 30%);
+    color: #64869A !important;
+    padding: 4px 10px !important;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.spark_logo {
+    width: 250px;
+}
